@@ -1,0 +1,21 @@
+
+<h2>Event List</h2>
+
+<table border="1" class="table table-hover">
+    <thead class="thead-dark">
+        <th>Title</th>
+        <th>Active?</th>
+        <th>Description</th>
+        <th>Created</th>
+        <th>Modified</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let event of events">
+            <td class="align-middle">{{ event.title }}</td>
+            <td>{{ event.active }}</td>
+            <td>{{ event.description }}</td>
+            <td>{{ event.created }}</td>
+            <td>{{ event.modified }}</td>
+        </tr>
+    </tbody>
+</table>

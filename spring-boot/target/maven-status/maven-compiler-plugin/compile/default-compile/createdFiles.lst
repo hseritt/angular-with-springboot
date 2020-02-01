@@ -1,0 +1,4 @@
+com/seritt/springbootwithrest/config/RestConfig.class
+com/seritt/springbootwithrest/SpringBootWithRestApplication.class
+com/seritt/springbootwithrest/dao/EventRepository.class
+com/seritt/springbootwithrest/model/Event.class
